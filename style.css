@@ -1,0 +1,245 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: Space Mono;
+}
+body{
+  display: flex;
+  font-family: Space Mono;
+  background-color: hsl(185, 41%, 84%);
+}
+main{
+  display: flex;
+  height: 340px;
+  width: 700px;
+  background-color: white;
+  border-radius: 20px;
+  margin-top: 180px;
+}
+.divv{
+  flex: 1;
+}
+.cont1{
+  margin-left: 40px;
+  margin-top: 30px;
+  
+}
+.bill{
+  font-size: 12px;
+  color: hsl(186, 14%, 43%);
+  margin-bottom: 5px;
+}
+.positionImg1{
+  position: relative;
+}
+.num{
+  width: 300px;
+  height: 35px;
+  background-color:hsl(185, 41%, 95%) ;
+  border-radius: 4px;
+  border: none;
+  margin-bottom: 25px;
+  font-size: 20px;
+  cursor: pointer;
+  padding-right: 10px;
+  color:hsl(183, 100%, 15%) ;
+}
+.num:hover,.peopleNum:hover, .custom:hover{
+  border-width: 2px;
+  border-style: solid;
+  border-color: hsl(172, 67%, 45%);
+}
+.dollarimg{
+  position: absolute;
+  top: 10px;
+  left: 8px;
+  width: 10px;
+}
+.selectTip{
+  font-size: 12px;
+  color: hsl(186, 14%, 43%);
+  margin-bottom: 10px;
+}
+.gridBut{
+  display: grid;
+  grid-template-columns: 70px 70px 70px;
+  column-gap:15px ;
+  row-gap: 15px;
+
+}
+.per1{
+  width: 80px;
+  height: 35px;
+  background-color: hsl(183, 100%, 15%);
+  color: white;
+  font-size: 16px;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+
+}
+.per2{
+  width: 80px;
+  height: 35px;
+  background-color: hsl(183, 100%, 15%);
+  color: white;
+  font-size: 16px;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+.per3{
+  width: 80px;
+  height: 35px;
+  background-color: hsl(183, 100%, 15%);
+  color: white;
+  font-size: 16px;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+.per4{
+  width: 80px;
+  height: 35px;
+  background-color: hsl(183, 100%, 15%);
+  color: white;
+  font-size: 16px;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+.per5{
+  width: 80px;
+  height: 35px;
+  background-color: hsl(183, 100%, 15%);
+  color: white;
+  font-size: 16px;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+.per1:hover,.per2:hover,.per3:hover,.per4:hover,.per5:hover,.reset:hover{
+  background-color: hsl(185, 41%, 60%);
+} 
+.per1:active,.per2:active,.per3:active,.per4:active,.per5:active,.reset:active{
+  background-color: hsl(172, 67%, 45%);
+} 
+.custom{
+  height: 35px;
+  background-color:hsl(185, 41%, 95%) ;
+  border: none;
+  border-radius: 3px;
+  margin-bottom: 25px;
+  padding-left: 8px;
+  font-size: 18px;
+  width: 73px;
+  cursor: pointer;
+  color:hsl(183, 100%, 15%) ;
+}
+.people{
+  font-size: 12px;
+  color: hsl(186, 14%, 43%);
+  margin-bottom: 5px;
+}
+.positionImg2{
+  position: relative;
+}
+.peopleNum{
+  color:hsl(183, 100%, 15%) ;
+  padding-right: 10px;
+  font-size: 20px;
+  width: 300px;
+  height: 35px;
+  background-color:hsl(185, 41%, 95%) ;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.personimg{
+  position: absolute;
+  top: 10px;
+  left: 8px;
+  width: 10px;
+}
+.cont2{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: hsl(183, 100%, 15%);
+  margin-left: 35px;
+  height: 300px;
+  margin-top: 20px;
+  border-radius: 10px;
+  width: 300px;
+}
+.allcont1{
+  display: flex;
+  margin-top: 40px;
+  align-items: center;
+}
+.tipAmountcont{
+  display: flex;
+  flex-direction: column;
+  margin-right: 70px;
+}
+.tipAmount{
+  color: white;
+  font-size: 12px;
+}
+.tipPer{
+  color: hsl(186, 14%, 43%);
+  font-size: 10px;
+}
+.zeros{
+  color: hsl(172, 67%, 45%);
+  font-size: 30px;
+}
+.allcont2{
+  display: flex;
+  margin-top: 40px;
+  align-items: center;
+}
+.totalcont{
+  display: flex;
+  flex-direction: column;
+  margin-right: 95px;
+}
+.total{
+  color: white;
+  font-size: 12px;
+}
+.totalPer{
+  color: hsl(186, 14%, 43%);
+  font-size: 10px;
+}
+.reset{
+  width: 250px;
+  height: 35px;
+  background-color:  hsl(172, 67%, 45%);
+  border: none;
+  border-radius: 3px;
+  color: hsl(186, 14%, 25%);
+  margin-top: 70px;
+  cursor: pointer;
+}
+.errorcont{
+  display: flex;
+  justify-content: space-between;
+}
+.error1{
+  font-size: 12px;
+  color: rgb(255, 50, 0);
+}
+.error2{
+  font-size: 12px;
+  color: rgb(255, 50, 0);
+}
+.perNew{
+  width: 80px;
+  height: 35px;
+  background-color: hsl(172, 67%, 45%);
+  color: white;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}

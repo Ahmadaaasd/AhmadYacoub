@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500&family=Space+Mono:wght@700&display=swap" rel="stylesheet">
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Tip calculator app</title>
+
+
+</head>
+<body>
+  <div class="divv"></div>
+  <main>
+    <div class="cont1">
+      <div class="errorcont">
+        <p class="bill">Bill</p>
+        <p class="error1"></p>
+      </div>
+      <div class="positionImg1">
+        <input class="num" dir="rtl" id="num" type="text" placeholder="0">
+        <img class="dollarimg" src="images/icon-dollar.svg">
+        
+      </div>
+
+      <p class="selectTip">Select Tip %</p>
+
+      <div class="gridBut">
+        <button class="per1 js-per1" id="per1">5%</button>
+        <button class="per2 js-per2" id="per2">10%</button>
+        <button class="per3 js-per3" id="per3">15%</button>
+        <button class="per4 js-per4" id="per4">25%</button>
+        <button class="per5 js-per5" id="per5">50%</button>
+        <input class="custom" type="text" placeholder="Custom">
+      </div>
+      <div class="errorcont">
+        <p class="people">Number of People</p>
+        <p class="error2"></p>
+      </div>
+      <div class="positionImg2">
+        <input class="peopleNum" dir="rtl" id="peopleNum" type="text" placeholder="0">
+        <img class="personimg" src="images/icon-person.svg">
+        
+      </div>
+    </div>
+
+    <div class="cont2">
+      <div class="allcont1">
+        <div class="tipAmountcont">
+          <p class="tipAmount">Tip Amount</p>
+          <p class="tipPer">/ person</p>
+        </div>
+        <p class="zeros js-zero1">$0.00</p>
+      </div>
+
+      <div class="allcont2">
+        <div class="totalcont">
+          <p class="total">Total</p>
+          <p class="totalPer">/ person</p>
+        </div>
+        <p class="zeros js-zero2">$0.00</p>
+      </div>
+
+      <button class="reset">RESET</button>
+    </div>
+  </main>
+  <div class="divv"></div>
+  <script src="main.js"></script>
+  
+</body>
+</html>
